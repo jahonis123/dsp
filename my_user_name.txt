@@ -1,0 +1,6 @@
+TEST > my_user_name.txt
+git add my_user_name.txt
+git commit -m added a test file by user_name
+git merge master
+q
+echo TEST
