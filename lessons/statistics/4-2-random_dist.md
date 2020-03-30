@@ -12,7 +12,7 @@ random_pmf = thinkstats2.Pmf(random_numbers)
 thinkplot.PrePlot(1)  
 thinkplot.Hist(random_pmf, align='right')  
 thinkplot.Config(xlabel='Number', ylabel='PMF')  
-### The distribution of PMF is not shown on the graph, as all of the numbers have the same PMF value to their key. 
+### The distribution of PMF is not shown on the graph, as all of the numbers have the same PMF value to their key. It's a uniform distribution.
 
 ## Calculate CDF and plot distribution 
 random_cdf = thinkstats2.Cdf(random_numbers)  
